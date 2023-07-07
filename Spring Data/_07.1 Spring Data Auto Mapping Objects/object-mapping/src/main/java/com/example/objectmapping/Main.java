@@ -30,9 +30,12 @@ public class Main implements CommandLineRunner {
                     System.out.println("\t" + employee.getFirstName() + " " + employee.getLastName() + " " + employee.getSalary());
                 });
 
-        List<ManagerDto> managers = this.employeeService.findAll();
+       List<ManagerDto> managers = this.employeeService.findAll();
         managers.forEach(manager -> {
-            System.out.println(manager.getFirstName() + " " + manager.getLastName());
+            if (manager.getSubordinates().isEmpty()) {
+                return;
+            }
+            System.out.println(manager.getFirstName() + " " + manager.getLastName() + "(" + manager.getSubordinates().size() + ")");
             manager.getSubordinates()
                     .forEach(employee -> {
                         System.out.println("\t" + employee.getFirstName() + " " + employee.getLastName() + " " + employee.getSalary());
