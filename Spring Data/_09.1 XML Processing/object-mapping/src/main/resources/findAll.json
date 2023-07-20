@@ -1,0 +1,70 @@
+[
+  {
+    "subordinates": [
+      {
+        "salary": 2500.00,
+        "firstName": "Gosho",
+        "lastName": "Goshov"
+      },
+      {
+        "salary": 2000.00,
+        "firstName": "Pesho",
+        "lastName": "Petrov"
+      }
+    ],
+    "firstName": "Hristina",
+    "lastName": "Racheva"
+  },
+  {
+    "subordinates": [
+      {
+        "salary": 1800.00,
+        "firstName": "Mitko",
+        "lastName": "Mitkov"
+      },
+      {
+        "salary": 1200.00,
+        "firstName": "Minka",
+        "lastName": "Mincheva"
+      }
+    ],
+    "firstName": "Pesho",
+    "lastName": "Petrov"
+  },
+  {
+    "subordinates": [
+      {
+        "salary": 1600.00,
+        "firstName": "Ginka",
+        "lastName": "Gincheva"
+      }
+    ],
+    "firstName": "Gosho",
+    "lastName": "Goshov"
+  },
+  {
+    "subordinates": [],
+    "firstName": "Minka",
+    "lastName": "Mincheva"
+  },
+  {
+    "subordinates": [],
+    "firstName": "Ginka",
+    "lastName": "Gincheva"
+  },
+  {
+    "subordinates": [],
+    "firstName": "Mitko",
+    "lastName": "Mitkov"
+  },
+  {
+    "subordinates": [],
+    "firstName": "New",
+    "lastName": "Employee"
+  },
+  {
+    "subordinates": [],
+    "firstName": "NewHristina",
+    "lastName": "NewRacheva"
+  }
+]

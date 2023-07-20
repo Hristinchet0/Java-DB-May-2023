@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<managers>
+    <manager first_name="Hristina" last_name="Racheva">
+        <subordinates>
+            <employee first_name="Gosho" last_name="Goshov" salary="2500.00"/>
+            <employee first_name="Pesho" last_name="Petrov" salary="2000.00"/>
+        </subordinates>
+    </manager>
+    <manager first_name="Pesho" last_name="Petrov">
+        <subordinates>
+            <employee first_name="Minka" last_name="Mincheva" salary="1200.00"/>
+            <employee first_name="Mitko" last_name="Mitkov" salary="1800.00"/>
+        </subordinates>
+    </manager>
+    <manager first_name="Gosho" last_name="Goshov">
+        <subordinates>
+            <employee first_name="Ginka" last_name="Gincheva" salary="1600.00"/>
+        </subordinates>
+    </manager>
+    <manager first_name="Minka" last_name="Mincheva">
+        <subordinates/>
+    </manager>
+    <manager first_name="Ginka" last_name="Gincheva">
+        <subordinates/>
+    </manager>
+    <manager first_name="Mitko" last_name="Mitkov">
+        <subordinates/>
+    </manager>
+    <manager first_name="New" last_name="Employee">
+        <subordinates/>
+    </manager>
+    <manager first_name="NewHristina" last_name="NewRacheva">
+        <subordinates/>
+    </manager>
+    <manager first_name="John" last_name="Doe">
+        <subordinates/>
+    </manager>
+    <manager first_name="John 2" last_name="Doe 2">
+        <subordinates/>
+    </manager>
+</managers>
